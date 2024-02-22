@@ -1,0 +1,36 @@
+{
+	"layer": "top",
+	"modules-left": ["hyprland/workspaces"],
+	"modules-center": ["hyprland/window"],
+	"modules-right": ["cpu", "memory", "battery", "clock"],
+	"cpu": {
+		"states": {
+			"warning": 70,
+			"critical": 90
+		},
+		"format": "{usage}% ",
+		"interval": 6
+	},
+	"memory": {
+		"states": {
+			"warning": 70,
+			"critical": 90
+		},
+		"format": "{}% ",
+		"interval": 6
+	},
+	"battery": {
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{capacity}% {icon}",
+		"format-discharging": "{capacity}% {icon}",
+		"format-icons": ["", "", "", "", ""],
+		"interval": 10
+	},
+	"clock": {
+		"format": "{:%H:%M.%S}",
+		"interval": 1
+	}
+}
