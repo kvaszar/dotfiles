@@ -1,0 +1,14 @@
+[window]
+opacity = 0.8
+padding.x = 8
+dynamic_padding = true
+
+[font]
+size = 16.0
+normal = { family = "Caskaydia Mono Nerd Font", style = "Light" }
+bold = { family = "Caskaydia Mono Nerd Font", style = "Bold" }
+italic = { family = "Caskaydia Mono Nerd Font", style = "Italic" }
+bold_italic = { family = "Caskaydia Mono Nerd Font", style = "Bold Italic" }
+
+[general]
+import = ["~/.config/alacritty/rose-pine-moon.toml"]
