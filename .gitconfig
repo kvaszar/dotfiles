@@ -1,0 +1,7 @@
+[user]
+	name = kvaszar
+	email = 157027054+kvaszar@users.noreply.github.com
+[core]
+	editor = nvim
+[alias]
+	hist = log --graph --oneline --decorate --all
