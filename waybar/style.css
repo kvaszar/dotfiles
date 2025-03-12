@@ -1,90 +1,102 @@
 * {
-	font-family: "Caskaydia Mono Nerd Font";
-    font-size: 14px;
+  font-family: "Caskaydia Mono Nerd Font";
+  font-size: 14px;
 }
 
 window#waybar {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 #clock {
-	font-size: 16px;
-	margin: 0px 16px 0px 8px;
+  font-size: 16px;
+  margin: 0px 16px 0px 8px;
+  background-color: transparent;
 }
 
 #battery {
-	margin: 1px 12px 0px 8px;
-	color: #9ccfd8;
+  margin: 1px 12px 0px 8px;
+  color: #c4a7e7;
+  background-color: transparent;
 }
 #battery.warning {
-	color: #ea9a97;
+  color: #ea9a97;
+  background-color: transparent;
 }
 #battery.critical {
-	color: #eb6f92;
+  color: #eb6f92;
+  background-color: transparent;
 }
 
 #memory {
-	margin: 1px 8px 0px 8px;
-	color: #9ccfd8;
+  margin: 1px 8px 0px 8px;
+  color: #c4a7e7;
+  background-color: transparent;
 }
 #memory.warning {
-	color: #ea9a97;
+  color: #ea9a97;
+  background-color: transparent;
 }
 #memory.critical {
-	color: #eb6f92;
+  color: #eb6f92;
+  background-color: transparent;
 }
 
 #cpu {
-	margin: 1px 8px 0px 8px;
-	color: #9ccfd8;
+  margin: 1px 8px 0px 8px;
+  color: #c4a7e7;
+  background-color: transparent;
 }
 #cpu.warning {
-	color: #ea9a97;
+  color: #ea9a97;
+  background-color: transparent;
 }
 #cpu.critical {
-	color: #eb6f92;
+  color: #eb6f92;
+  background-color: transparent;
 }
 
-#window,
+#window {
+  background-color: transparent;
+}
 #workspaces {
-	margin: 0px 8px 0px 8px;
+  margin: 0px 8px 0px 8px;
+  background-color: transparent;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 button {
-    /* Use box-shadow instead of border so the text isn't offset */
-    box-shadow: inset 0 -3px transparent;
-    /* Avoid rounded borders under each button name */
-    border: none;
-    border-radius: 0;
+  /* Use box-shadow instead of border so the text isn't offset */
+  box-shadow: inset 0 -3px transparent;
+  /* Avoid rounded borders under each button name */
+  border: none;
+  border-radius: 0;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
-    background: inherit;
-    box-shadow: inset 0 -3px #ffffff;
+  background: inherit;
+  box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces button {
-    padding: 0 5px;
-    background-color: transparent;
-    color: #ffffff;
+  padding: 0 5px;
+  background-color: transparent;
+  color: #ffffff;
 }
 
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 #workspaces button.focused {
-    background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+  background-color: #64727d;
+  box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+  background-color: #eb4d4b;
 }
-
