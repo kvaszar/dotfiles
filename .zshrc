@@ -26,6 +26,7 @@ alias "vim"="nvim" "vi"="nvim"
 alias ls='ls --color=auto'
 alias la='ls -a --color=auto'
 alias lh="ls -df .??* --color=auto"
+alias ln='ls -lan'
 alias grep='grep --color=auto'
 alias fcd='cd $(find . -type d -print | fzf)'
 
