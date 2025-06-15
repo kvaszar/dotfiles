@@ -3,6 +3,22 @@
 	"modules-left": ["hyprland/workspaces"],
 	"modules-center": ["hyprland/window"],
 	"modules-right": ["cpu", "memory", "battery", "clock"],
+	"hyprland/workspaces": {
+		"format": "{windows} {id}",
+		"window-rewrite-default": "",
+		"window-rewrite": {
+			"title<.*youtube.*>": "",
+			"class<zen>": "󰈹",
+			"class<Alacritty>": "",
+			"code": "󰨞",
+			"idea": "",
+			"rider": "",
+			"telegram": "",
+			"steam": "",
+		},
+	},
+	"hyprland/window": {
+	},
 	"cpu": {
 		"states": {
 			"warning": 70,
@@ -31,6 +47,7 @@
 	},
 	"clock": {
 		"format": "{:%H:%M.%S}",
+		"tooltip-format": "<big>{:%A, %B %d}</big>",
 		"interval": 1
 	}
 }

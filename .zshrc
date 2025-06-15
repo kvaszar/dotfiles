@@ -33,6 +33,11 @@ alias fcd='cd $(find . -type d -print | fzf)'
 #dotnet tools
 export PATH="$PATH:$HOME/.dotnet/tools"
 
+#distant
+export PATH="$PATH:$HOME/.local/bin"
+
 #zoxide
 eval "$(zoxide init zsh)"
 alias cd='z'
+
+export HSA_OVERRIDE_GFX_VERSION=10.3.0

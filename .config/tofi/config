@@ -69,25 +69,25 @@
 
 	# Prompt text theme
 	# prompt-color = #FFFFFF
-	prompt-background = #232136
+	prompt-background = #00000000
 	prompt-background-padding = 0
 	prompt-background-corner-radius = 0
 
 	# Placeholder text theme
 	placeholder-color = #FFFFFFA8
-	placeholder-background = #232136
+	placeholder-background = #00000000
 	placeholder-background-padding = 0
 	placeholder-background-corner-radius = 0
 
 	# Input text theme
 	input-color = #9ccfd8
-	input-background = #232136
+	input-background = #00000000
 	input-background-padding = 0
 	input-background-corner-radius = 0
 
 	# Default result text theme
 	# default-result-color = #FFFFFF
-	default-result-background = #232136
+	default-result-background = #00000000
 	default-result-background-padding = 0
 	default-result-background-corner-radius = 0
 
@@ -103,7 +103,7 @@
 
 	# Selection text
 	selection-color = #eb6f92
-	selection-background = #232136
+	selection-background = #00000000
 	selection-background-padding = 0
 	selection-background-corner-radius = 0
 
@@ -170,7 +170,7 @@
 	height = 720
 
 	# Window background color
-	background-color = #232136
+	background-color = #232136CC
 
 	# Width of the border outlines in pixels.
 	outline-width = 0
