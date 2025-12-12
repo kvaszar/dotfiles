@@ -11,10 +11,14 @@
 			"class<zen>": "󰈹",
 			"class<Alacritty>": "",
 			"code": "󰨞",
+			"cursor": "󰨞",
 			"idea": "",
 			"rider": "",
+			"android": "󰀴",
 			"telegram": "",
 			"steam": "",
+			"discord": "",
+			"unity": "",
 		},
 	},
 	"hyprland/window": {
@@ -43,11 +47,11 @@
 		"format": "{capacity}% {icon}",
 		"format-discharging": "{capacity}% {icon}",
 		"format-icons": ["", "", "", "", ""],
-		"interval": 10
+		"interval": 60
 	},
 	"clock": {
 		"format": "{:%H:%M.%S}",
-		"tooltip-format": "<big>{:%A, %B %d}</big>",
+		"tooltip-format": "{:%A, %B %d}",
 		"interval": 1
 	}
 }
