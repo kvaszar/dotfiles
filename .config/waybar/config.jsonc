@@ -1,27 +1,39 @@
 {
 	"layer": "top",
-	"modules-left": ["hyprland/workspaces"],
-	"modules-center": ["hyprland/window"],
-	"modules-right": ["cpu", "memory", "battery", "clock"],
+	"margin": "1px 0px 2px 0px",
+	"modules-left": [
+		"hyprland/workspaces"
+	],
+	"modules-center": [
+		"hyprland/window"
+	],
+	"modules-right": [
+		"tray",
+		"cpu",
+		"memory",
+		"battery",
+		"clock"
+	],
 	"hyprland/workspaces": {
 		"format": "{windows} {id}",
-		"window-rewrite-default": "",
+		"window-rewrite-default": "",
 		"window-rewrite": {
 			"title<.*youtube.*>": "",
-			"class<zen>": "󰈹",
-			"class<Alacritty>": "",
+			"zen": "󰈹",
+			"foot": "",
 			"code": "󰨞",
 			"cursor": "󰨞",
-			"idea": "",
 			"rider": "",
-			"android": "󰀴",
 			"telegram": "",
 			"steam": "",
-			"discord": "",
-			"unity": "",
-		},
+			"equibop": ""
+		}
 	},
-	"hyprland/window": {
+	"hyprland/window": {},
+	"tray": {
+		"icon-size": 18,
+		"spacing": 8,
+		"show-passive-items": false
 	},
 	"cpu": {
 		"states": {
@@ -46,7 +58,13 @@
 		},
 		"format": "{capacity}% {icon}",
 		"format-discharging": "{capacity}% {icon}",
-		"format-icons": ["", "", "", "", ""],
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		],
 		"interval": 60
 	},
 	"clock": {
